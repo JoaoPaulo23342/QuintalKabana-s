@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <script defer src="index.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
     <nav class="menu">
@@ -28,8 +30,67 @@
         </ul>
     </nav>
     <main>
+      <nav class="menu">
+        <h1 class="logo">Quintal Kabana's - Sobre nós</h1>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="menu.html" id="home">Home</a></li>
+            <li><a href="#Hamburguer" id="hamburguer">Hambúrguer</a></li>
+            <li><a href="#Acompanhamentos" id="acompanhamentos">Acompanhamentos</a></li>
+            <li><a href="#Bebidas" id="bebidas">Bebidas</a></li>
+            <li><a href="#Espetinhos" id="espetinhos">Espetinhos do GD</a></li>
+            <li><a href="about.html" id="sobre">Sobre nós</a></li>
+        </ul>
+    </nav>
+    
+    <main>
         <a class="bi bi-whatsapp" id="button" href="https://wa.me/556198593272?text=%22Ol%C3%A1%2C%20Quintal%20das%20Kabana%27s!%20%F0%9F%98%8A%0A%0AGostaria%20de%20fazer%20um%20pedido%3A%0A%0A%F0%9F%8D%A2%20Espetinhos%3A%20%0A%F0%9F%8D%BA%20Bebidas%3A%20%0A%F0%9F%8D%BD%20Acompanhamentos%3A%20%0A%F0%9F%8D%94Sandu%C3%ADches%3A%0A%0AEndere%C3%A7o%20de%20entrega%3A%20%0AForma%20de%20pagamento%3A%20"></a>
         
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100" class="d-block w-100 c-img" alt="Slide 1">
+                <div class="carousel-caption">
+                  <h2 class="display-4">Bem-vindo ao Quintal Kabana's</h2>
+                  <p class="lead">A melhor experiência gastronômica da região</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" class="d-block w-100 c-img" alt="Slide 2">
+                <div class="carousel-caption">
+                  <h2 class="display-4">Ingredientes de Qualidade</h2>
+                  <p class="lead">Trabalhamos apenas com os melhores produtos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100" class="d-block w-100 c-img" alt="Slide 3">
+                <div class="carousel-caption">
+                  <h2 class="display-4">Ambiente Aconchegante</h2>
+                  <p class="lead">O lugar perfeito para reunir os amigos</p>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
     </main>
 </body>
 </html>
