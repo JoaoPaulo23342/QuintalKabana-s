@@ -211,7 +211,7 @@ main {
     justify-content: flex-end;
     align-items: end;
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     text-decoration: none;
     z-index: 1001;
