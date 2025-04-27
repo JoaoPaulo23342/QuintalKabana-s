@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #FFF !important;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+main {
+    background: url('src/bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Garante que o fundo cubra toda a tela */
+    position: relative; /* Mantém o fundo fixo */
+    padding: 40px 0; /* Espaço para os cards */
+
+}
+
+.nav-list {
+    
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    padding-top: 10px;
+    
+
+}
+
+.nav-list li {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(46, 42, 42);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 24px;
+    height: 2px;
+    background: #FFF;
+    margin: 5px;
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 200px;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        list-style: none;
+        z-index: 2;
+    }
+    .nav-list li {
+        margin: 10px 0;
+        opacity: 0;
+        z-index: 2;
+    }
+    .mobile-menu {
+        display: block;
+        margin-right: 10px;
+        z-index: 2;
+    }
+    .nav-list.active {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+        z-index: 2;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        z-index: 2;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px ;
+    ;
+    
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.text-body-secondary {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.titulo {
+    padding-top: 25px;
+    font-size: 40px;    
+    color: #23232e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.titulo2 {
+    width: 80%;
+    text-align: center;
+    background-color: #23232e;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+
+}
+
+#doce {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+#espetinhos {
+    margin-bottom: 30px;
+}
+
+.titulo3 {
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 28px;
+    position: absolute;
+    text-align: center;
+    background-color: #23232e;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    z-index: 5;
+}
+
+#wp {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 105px;
+    z-index: 6;
+    font-size: 50px;
+    list-style: none;
+    font-style: none;
+    margin-right: 35px;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+#button {
+    background-color: green;
+    border-radius: 100px;
+    display: flex;
+    font-size: 40px;
+    justify-content: flex-end;
+    align-items: end;
+    
+    position: fixed;
+    margin-top: 490px;
+    text-decoration: none;
+    z-index: 6;
+    margin-left: 90%;
+
+}
+#home {
+    text-decoration: none;
+}
+#hamburguer {
+    text-decoration: none;
+
+}
+
+#acompanhamentos {
+    text-decoration: none;
+
+}
+
+#espetinhos {
+    text-decoration: none;
+}
+#sobre {
+    text-decoration: none;
+}
+
+#bebidas {
+    text-decoration: none;
+}
+#gd {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
