@@ -38,9 +38,10 @@ nav {
 main {
     background: url('src/bg.jpg') no-repeat center center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 40px 0;
     margin-top: 8vh;
+    padding-bottom: 30px;
 }
 
 .nav-list {
@@ -250,12 +251,120 @@ main {
     text-align: center;
 
 }
-.nav-list a {
-    text-decoration: none !important;
-    background-color: transparent !important;
+
+.home a {
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(44, 38, 38);
+    padding: 10px;
+    border-radius: 15px;
+
+    
 }
 
-.nav-list li a:hover {
-    text-decoration: none !important;
-    opacity: 0.7;
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about h1 {
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
+
+.logoQuintal {
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    width: 70%;
+    
+    
+}
+.content h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #23232e;
+    width: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    
+}
+
+#h2-texto {
+    margin-top: 15px;
+}
+
+.aboutText {
+    color: #FFF;
+    font-size: 20px;
+    height: 2px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+}
+.aboutP {
+    color: #FFF;
+    margin-top: 75px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.about-B {
+    color: #FFF;
+    margin-top: 90px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo4 {
+    width: 100%;
+    font-size: 20px;
+    height: 140px;
+    
+    position: fixed;
+    text-align: center;
+    background-color: #23232e;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 70px 10px 10px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    z-index: 5;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.titulo5 {
+    display: flex;
+    justify-content:  left;
+    text-decoration: none;
+    list-style: none;
+    background: #23232e;
+    width: 290px;
+    padding: 40px;
+    height: 20px;
+    margin-bottom: 60px;
+}
+.white {
+    background-color: #23232e;
+    position: fixed;
+    color: #FFF;
 }
