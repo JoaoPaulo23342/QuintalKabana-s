@@ -37,7 +37,7 @@ class MobileNavbar {
 const mobileNavbar = new MobileNavbar(".mobile-menu", ".nav-list", ".nav-list li")
 mobileNavbar.init()
 
-// Add smooth scrolling for anchor links
+
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault()
@@ -52,7 +52,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         behavior: "smooth",
       })
 
-      // Close mobile menu if open
       const navList = document.querySelector(".nav-list")
       if (navList.classList.contains("active")) {
         document.querySelector(".mobile-menu").click()
@@ -61,7 +60,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   })
 })
 
-// Add hover effect for cards
+
 document.querySelectorAll(".card").forEach((card) => {
   card.addEventListener("mouseenter", function () {
     this.style.transform = "translateY(-10px)"

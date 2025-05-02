@@ -116,20 +116,20 @@
     background-color: var(--cor-destaque);
   }
   
-  /* Sobre nós */
+  
   .about-content {
     display: flex;
-    flex-direction: column; /* Alterado para column para empilhar os elementos */
-    align-items: center; /* Centraliza os elementos horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
     gap: 2rem;
   }
   
   .about-text {
     flex: 1;
     min-width: 300px;
-    text-align: center; /* Centraliza o texto */
-    max-width: 800px; /* Limita a largura para melhor legibilidade */
-    margin: 0 auto; /* Centraliza o bloco de texto */
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
   }
   
   .about-image {
@@ -140,11 +140,11 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
-    max-width: 800px; /* Limita a largura máxima */
+    width: 100%; 
+    max-width: 800px; 
   }
   
-  /* Produtos */
+  
   .products {
     background-color: var(--cor-secundaria);
   }
@@ -184,7 +184,7 @@
     margin-bottom: 0.5rem;
   }
   
-  /* Localização */
+  
   .location-content {
     display: flex;
     flex-direction: column;
@@ -211,7 +211,7 @@
     max-width: 600px;
   }
   
-  /* Rodapé */
+ 
   footer {
     background-color: var(--cor-primaria);
     color: var(--cor-clara);
@@ -265,7 +265,7 @@
     font-size: 0.8rem;
   }
   
-  /* Responsividade */
+ 
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;
@@ -304,10 +304,10 @@
     font-size: 0.9rem;
   }
   
-  /* Ajuste para container-nav */
+  
   .container-nav {
-    margin: 0; /* Remove margens */
-    padding: 0.3rem 0; /* Reduz o padding */
+    margin: 0; 
+    padding: 0.3rem 0; 
   }
   #button {
     background-color: #25d366;
