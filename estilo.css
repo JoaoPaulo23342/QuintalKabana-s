@@ -1,4 +1,4 @@
-/* Cores e fontes */
+
 :root {
     --cor-primaria: #23232e;
     --cor-secundaria: #f5deb3;
@@ -20,11 +20,11 @@
     background-color: #f9f5f0;
   }
   
-  /* Cabeçalho */
+  
   header {
     background-color: var(--cor-primaria);
     color: var(--cor-clara);
-    padding: 0.3rem; /* Reduzido de 0.5rem para 0.3rem */
+    padding: 0.3rem; 
     position: relative;
   }
   
@@ -35,7 +35,7 @@
   }
   
   .logo {
-    font-size: 1.8rem; /* Reduzido de 2rem para 1.8rem */
+    font-size: 1.8rem; 
     font-weight: bold;
     text-align: center;
     padding: 0.5rem 0; /* Reduzido de 1rem para 0.5rem */
